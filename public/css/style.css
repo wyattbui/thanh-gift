@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0 0 10px 1%;
   list-style: none;
-  min-height: 400px;
+  /* min-height: 400px; */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1176,7 +1176,8 @@ form label {
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
-.fh5co-heading h2 {
+.fh5co-heading h2{
+
   font-size: 60px;
   margin-bottom: 10px;
   line-height: 1.5;
@@ -1187,6 +1188,20 @@ form label {
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
     font-size: 40px;
+  }
+}
+
+.fh5co-heading h3 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #F14E95;
+  font-family: "Sacramento", Arial, serif;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-heading h3 {
+    font-size: 32px;
   }
 }
 .fh5co-heading p {
